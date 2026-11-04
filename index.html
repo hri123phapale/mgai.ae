@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MGAI.ae | Unified Digital Intelligence</title>
+  <meta name="description" id="metaDesc" content="MGAI.ae is an Abu Dhabi AI and digital transformation firm building mission-critical systems for governments, enterprises and smart cities across the UAE and GCC.">
+  <meta name="theme-color" content="#121414">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="MGAI.ae">
+  <link rel="canonical" href="https://mgai.ae/">
+  <link rel="alternate" hreflang="en" href="https://mgai.ae/">
+  <link rel="alternate" hreflang="ar" href="https://mgai.ae/?lang=ar">
+  <link rel="alternate" hreflang="x-default" href="https://mgai.ae/">
+  <link rel="icon" id="faviconSvg" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" id="faviconPng" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MGAI.ae">
+  <meta property="og:url" content="https://mgai.ae/">
+  <meta property="og:title" content="MGAI.ae | Unified Digital Intelligence">
+  <meta property="og:description" content="AI and digital transformation for governments, enterprises and smart cities across the UAE and GCC. Based in Abu Dhabi.">
+  <meta property="og:image" content="https://mgai.ae/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="MGAI.ae, Artificial Intelligence and Information Technology">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_AE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MGAI.ae | Unified Digital Intelligence">
+  <meta name="twitter:description" content="AI and digital transformation for governments, enterprises and smart cities across the UAE and GCC.">
+  <meta name="twitter:image" content="https://mgai.ae/assets/og-image.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://mgai.ae/#organization",
+        "name": "MGAI.ae",
+        "alternateName": "MGAI",
+        "url": "https://mgai.ae/",
+        "logo": "https://mgai.ae/assets/logo-full.png",
+        "description": "AI and digital transformation firm serving governments, enterprises and smart city infrastructure across the UAE and GCC.",
+        "email": "info@mgai.ae",
+        "telephone": "+971588805260",
+        "address": { "@type": "PostalAddress", "addressLocality": "Abu Dhabi", "addressCountry": "AE" },
+        "areaServed": ["AE", "SA", "QA", "KW", "BH", "OM"],
+        "sameAs": ["https://www.facebook.com/mgai.ae"],
+        "contactPoint": [{ "@type": "ContactPoint", "contactType": "sales", "email": "info@mgai.ae", "telephone": "+971588805260", "availableLanguage": ["English", "Arabic"] }]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mgai.ae/#website",
+        "url": "https://mgai.ae/",
+        "name": "MGAI.ae",
+        "inLanguage": ["en", "ar"],
+        "publisher": { "@id": "https://mgai.ae/#organization" }
+      }
+    ]
+  }
+  </script>
+  <!-- Apply saved theme/language before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('mgai-theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+        var q = new URLSearchParams(location.search).get('lang');
+        var l = (q === 'ar' || q === 'en') ? q : (localStorage.getItem('mgai-lang') || 'en');
+        document.documentElement.lang = l;
+        document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="MGAI.ae home">
+        <img class="logo-light" src="assets/logo-full.svg" alt="MGAI.ae" width="780" height="186">
+        <img class="logo-dark" src="assets/logo-full-dark.svg" alt="MGAI.ae" width="780" height="186">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
+        <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
+        <a href="#why" data-i18n="nav.why">Why Us</a>
+        <a href="#contact" class="nav-cta-mobile" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn lang-btn" id="langToggle" type="button" aria-label="Switch language">
+          <span class="lang-label" data-i18n="langSwitch">العربية</span>
+        </button>
+        <button class="icon-btn theme-btn" id="themeToggle" type="button" aria-label="Toggle theme" aria-pressed="false">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
+          <span class="theme-label" data-i18n="theme.toLight">Light</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Get in touch</a>
+        <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="pulse"></span><span data-i18n="hero.eyebrow">AI &amp; digital transformation · Abu Dhabi</span></p>
+          <h1 class="reveal" data-delay="1">
+            <span data-i18n="hero.title1">Unified digital</span>
+            <span class="gradient-text" data-i18n="hero.title2">intelligence.</span>
+          </h1>
+          <p class="lead reveal" data-delay="2" data-i18n="hero.lead">End-to-end, mission-critical digital transformation for governments, enterprises and smart city infrastructure across the UAE and GCC.</p>
+          <div class="hero-actions reveal" data-delay="3">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <span data-i18n="hero.cta">Request a consultation</span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#capabilities" class="btn btn-ghost btn-lg" data-i18n="hero.secondary">Explore capabilities</a>
+          </div>
+          <dl class="hero-stats reveal" data-delay="4">
+            <div><dt>360°</dt><dd data-i18n="stats.s1">Integrated framework</dd></div>
+            <div><dt>AI-1st</dt><dd data-i18n="stats.s2">Architecture model</dd></div>
+            <div><dt>SaaS+</dt><dd data-i18n="stats.s3">Scalable delivery</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="2" aria-hidden="true">
+          <div class="core">
+            <div class="ring ring-1"></div>
+            <div class="ring ring-2"></div>
+            <div class="ring ring-3"></div>
+            <div class="core-center">AI</div>
+            <span class="node n1">ERP</span>
+            <span class="node n2">Cloud</span>
+            <span class="node n3">Security</span>
+            <span class="node n4">Data</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="clients" aria-labelledby="clientsTitle">
+      <div class="container">
+        <p class="clients-title" id="clientsTitle" data-i18n="clients.title">Trusted by industry leaders</p>
+      </div>
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>York General Contracting</span><span>Safa Al Madinah</span><span>Ufurno</span><span>Spago Group</span><span>Talent Me</span><span>Anarc Developers</span><span>Attiks</span><span>SZ Developers</span><span>Midad Arabia</span>
+          <span aria-hidden="true">York General Contracting</span><span aria-hidden="true">Safa Al Madinah</span><span aria-hidden="true">Ufurno</span><span aria-hidden="true">Spago Group</span><span aria-hidden="true">Talent Me</span><span aria-hidden="true">Anarc Developers</span><span aria-hidden="true">Attiks</span><span aria-hidden="true">SZ Developers</span><span aria-hidden="true">Midad Arabia</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="kicker" data-i18n="about.kicker">About MGAI</p>
+          <h2 data-i18n="about.title">Engineering systems built for the region.</h2>
+        </div>
+        <div class="about-body reveal" data-delay="1">
+          <p data-i18n="about.p1">Our team of engineers, data architects and system analysts designs and delivers platforms that meet UAE and GCC compliance and regulatory requirements from day one.</p>
+          <p data-i18n="about.p2">From strategy to deployment and long-term support, we bring AI, cloud and enterprise software together into one coherent operating backbone.</p>
+          <ul class="checks">
+            <li data-i18n="about.c1">Built for UAE &amp; GCC regulation</li>
+            <li data-i18n="about.c2">AI-first, cloud-native architecture</li>
+            <li data-i18n="about.c3">Bilingual Arabic &amp; English delivery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section class="section section-alt" id="capabilities">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="cap.kicker">Capabilities</p>
+          <h2 data-i18n="cap.title">Everything your digital operation needs.</h2>
+          <p class="section-sub" data-i18n="cap.sub">Eight disciplines, one accountable partner.</p>
+        </div>
+        <div class="cards cards-4">
+          <article class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg></div><h3 data-i18n="cap.c1.t">Enterprise Systems</h3><p data-i18n="cap.c1.d">Custom ERP, HR and finance platforms that unify your operations.</p></article>
+          <article class="card reveal" data-delay="1"><div class="card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div><h3 data-i18n="cap.c2.t">Web Architecture</h3><p data-i18n="cap.c2.d">High-performance portals and web apps built to scale.</p></article>
+          <article class="card reveal" data-delay="2"><div class="card-icon"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2"/></svg></div><h3 data-i18n="cap.c3.t">Mobile Engineering</h3><p data-i18n="cap.c3.d">Native and cross-platform apps for iOS and Android.</p></article>
+          <article class="card reveal" data-delay="3"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 10h4v4h-4z"/></svg></div><h3 data-i18n="cap.c4.t">AI &amp; Automation</h3><p data-i18n="cap.c4.d">Machine learning, RPA and intelligent workflows that cut overhead.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div><h3 data-i18n="cap.c5.t">Cybersecurity</h3><p data-i18n="cap.c5.d">Penetration testing, hardening and continuous monitoring.</p></article>
+          <article class="card reveal" data-delay="1"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-9A6 6 0 0 1 18 8.5a4 4 0 0 1-.5 9.5H7Z"/></svg></div><h3 data-i18n="cap.c6.t">Cloud &amp; DevOps</h3><p data-i18n="cap.c6.d">Kubernetes, CI/CD and resilient cloud infrastructure.</p></article>
+          <article class="card reveal" data-delay="2"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></div><h3 data-i18n="cap.c7.t">Digital Growth</h3><p data-i18n="cap.c7.d">Digital marketing, SEO and analytics that drive measurable growth.</p></article>
+          <article class="card reveal" data-delay="3"><div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="2.5" y="14" width="4" height="6" rx="1.5"/><rect x="17.5" y="14" width="4" height="6" rx="1.5"/></svg></div><h3 data-i18n="cap.c8.t">Support &amp; SLA</h3><p data-i18n="cap.c8.d">Managed helpdesk and guaranteed service levels around the clock.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTIONS -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="sol.kicker">Product catalog</p>
+          <h2 data-i18n="sol.title">60+ ready solutions across 11 domains.</h2>
+          <p class="section-sub" data-i18n="sol.sub">Proven building blocks, configured to how your organization works.</p>
+        </div>
+        <ul class="chips reveal" data-delay="1">
+          <li data-i18n="sol.l1">AI &amp; Digital Transformation</li>
+          <li data-i18n="sol.l2">ERP, HR &amp; Workforce</li>
+          <li data-i18n="sol.l3">Finance, Banking &amp; Compliance</li>
+          <li data-i18n="sol.l4">CRM, Commerce &amp; Experience</li>
+          <li data-i18n="sol.l5">Operations &amp; Logistics</li>
+          <li data-i18n="sol.l6">Facilities &amp; Smart Infrastructure</li>
+          <li data-i18n="sol.l7">Governance &amp; Administration</li>
+          <li data-i18n="sol.l8">Cybersecurity &amp; Infrastructure</li>
+          <li data-i18n="sol.l9">Analytics &amp; BI</li>
+          <li data-i18n="sol.l10">Industry Solutions</li>
+          <li data-i18n="sol.l11">Digital Services</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section section-alt" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker" data-i18n="why.kicker">Why MGAI</p>
+          <h2 data-i18n="why.title">Outcomes, not just software.</h2>
+        </div>
+        <div class="cards cards-3">
+          <article class="card why-card reveal"><span class="why-num">01</span><h3 data-i18n="why.w1.t">Practical outcomes</h3><p data-i18n="why.w1.d">AI systems designed to reduce overheads and grow revenue, measured against clear business goals.</p></article>
+          <article class="card why-card reveal" data-delay="1"><span class="why-num">02</span><h3 data-i18n="why.w2.t">Built to scale</h3><p data-i18n="why.w2.d">Cloud-native architecture that grows from a single department to a national platform.</p></article>
+          <article class="card why-card reveal" data-delay="2"><span class="why-num">03</span><h3 data-i18n="why.w3.t">Dedicated support</h3><p data-i18n="why.w3.d">A local team that stays with you after launch, backed by guaranteed SLAs.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <h2 data-i18n="band.title">Transform your operations with high-performance AI integration.</h2>
+        <a href="#contact" class="btn btn-light btn-lg" data-i18n="band.cta">Start your project</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="kicker" data-i18n="contact.kicker">Contact</p>
+          <h2 data-i18n="contact.title">Let's build what's next.</h2>
+          <p class="section-sub" data-i18n="contact.sub">Tell us about your project and our team will get back to you within one business day.</p>
+          <ul class="contact-list">
+            <li><span class="ci"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><a href="mailto:info@mgai.ae">info@mgai.ae</a></li>
+            <li><span class="ci"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span><a href="tel:+971588805260" dir="ltr">+971 58 880 5260</a></li>
+            <li><span class="ci"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span data-i18n="contact.address">Abu Dhabi, United Arab Emirates</span></li>
+          </ul>
+          <a class="btn btn-ghost" href="https://wa.me/971588805260" target="_blank" rel="noopener" data-i18n="contact.whatsapp">Chat on WhatsApp</a>
+        </div>
+
+        <div class="form-card reveal" data-delay="1">
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="f-name"><span data-i18n="form.name">Full name</span> <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required maxlength="100">
+              <p class="error" id="e-name" aria-live="polite"></p>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="f-email"><span data-i18n="form.email">Email address</span> <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-email" name="email" type="email" autocomplete="email" required dir="ltr">
+                <p class="error" id="e-email" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone"><span data-i18n="form.phone">Phone number</span> <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" required dir="ltr" placeholder="+971 5X XXX XXXX">
+                <p class="error" id="e-phone" aria-live="polite"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-message"><span data-i18n="form.message">How can we help?</span> <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="f-message" name="message" rows="5" required maxlength="3000"></textarea>
+              <p class="error" id="e-message" aria-live="polite"></p>
+            </div>
+            <!-- Honeypot: hidden from people, bots fill it in -->
+            <div class="hp" aria-hidden="true">
+              <label for="f-company">Company</label>
+              <input id="f-company" name="_honey" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <p class="form-status" id="formStatus" role="alert"></p>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn">
+              <span class="btn-text" data-i18n="form.submit">Send message</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form-note" data-i18n="form.note">Fields marked * are required.</p>
+          </form>
+
+          <div class="success" id="formSuccess" hidden tabindex="-1">
+            <div class="success-icon"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></div>
+            <h3 data-i18n="success.title">Thank you, your message is on its way.</h3>
+            <p data-i18n="success.body">We've received your enquiry and will reply within one business day.</p>
+            <button type="button" class="btn btn-ghost" id="sendAnother" data-i18n="success.again">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="brand" aria-label="MGAI.ae home"><img class="logo-light" src="assets/logo-full.svg" alt="MGAI.ae" width="780" height="186"><img class="logo-dark" src="assets/logo-full-dark.svg" alt="MGAI.ae" width="780" height="186"></a>
+        <p data-i18n="footer.tag">Unified digital intelligence for the UAE and GCC.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
+        <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="https://www.facebook.com/mgai.ae" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+      <p class="copy">© <span id="year">2026</span> MGAI.ae · <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
